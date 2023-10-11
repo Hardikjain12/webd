@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        border: solid 2px rgb(235, 67, 67);
+        background-color: rgb(191, 225, 21);
+        display: flex;
+        flex-direction: row;
+        width: 450px;
+        padding: 2px;
+        margin: 11px;
+      }
+      #boxleft {
+        background-color: rgb(227, 149, 120);
+        border: 1px solid rgb(10, 0, 7);
+        width: 48%;
+        margin: 3px;
+        padding: 2px;
+        display: flex;
+        flex-direction: column;
+      }
+
+      #boxright {
+        background-color: rgb(18, 232, 232);
+        border: 1px solid rgb(16, 0, 10);
+        width: 48%;
+        margin: 3px;
+        padding: 2px;
+      }
+      p {
+        border: solid 1px red;
+      }
+      img {
+        width: 170px;
+      }
+
+      @media (max-width: 640px) {
+        .container {
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div id="boxleft">
+        <p>text1</p>
+        <p>text1</p>
+      </div>
+
+      <div id="boxright">
+        <img src="i2.jpeg" alt="naruto" />
+      </div>
+    </div>
+  </body>
+</html>

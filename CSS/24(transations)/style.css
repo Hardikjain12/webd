@@ -1,0 +1,30 @@
+.container {
+  height: 500px;
+  width: 500px;
+  background-color: chartreuse;
+  border: 3px solid black;
+  display: flex;
+}
+
+.box {
+  height: 150px;
+  width: 150px;
+  margin: 20px;
+  border: 2px solid navy;
+  background-color: yellow;
+
+  /* transition-property: all; */
+  /* yeh isliye hota hai ki kisi specific property par apply kar
+    example like mujhe backgound color 
+    to mein likhuga  
+    transition-property: background-color; */
+
+  /* transition propert,duration,timing function,delay*/
+  /* shorthand  */
+  transition: background-color 1s ease 1s;
+}
+
+.box:hover {
+    /* transform: rotate(52deg); */
+    background-color: cadetblue;
+}

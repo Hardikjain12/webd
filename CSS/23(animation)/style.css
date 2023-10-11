@@ -1,0 +1,52 @@
+.container {
+  width: 100%;
+  border: 2px solid red;
+  height: 500px;
+  background-color: yellow;
+}
+.box {
+  border: 2px solid green;
+  background-color: aqua;
+  height: 212px;
+  width: 212px;
+  margin: 10px;
+
+  animation-name: hardik;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-delay: 1s;
+  /* animation-direction: normal; */
+
+  /* animation-fill-mode: forwards; */
+  animation-fill-mode: backwards;
+}
+
+@keyframes hardik {
+  0% {
+    width: 212px;
+    background-color: chocolate;
+  }
+  30% {
+    width: 40%;
+    background-color: navy;
+  }
+  70% {
+    width: 75%;
+    background-color: darkmagenta;
+  }
+  100% {
+    width: 100%;
+    background-color: black;
+  }
+}
+
+/* @keyframes hardik{
+
+    from{
+        width: 212px;
+    }
+    to{
+        width: 800px;
+    }
+} */

@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    perspective: 10px; /*ditance between z=0 plane and your eye
+    and for use of 3d/z direction we hv to enable perspective*/
+}
+
+.container{
+    position: relative;
+    height: 100%;
+    z-index: -1;/*z-index is for overlapping ki konsi image kiske upper aygi*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform-style: preserve-3d; /*for 3d game yeh on nahi hoga to 2d chaega*/
+}
+.background{
+    transform: translateZ(-40px) scale(5.10);
+}
+.foreground{
+    transform: translateZ(-20px) scale(3.1);
+}
+.background ,.foreground{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    object-fit: cover;/*it is for image cover hojayegi/fit image in a container*/
+}

@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: brown;
+    height: 500px;
+    border: 4px solid black;
+    display: grid;
+    /* grid-template-columns: 200px 200px 210px;  */
+    /* 3column with width */
+
+    /* grid-template-columns: 1fr 1fr 1fr;  */
+    /*fraction*/
+    /* now jo entire width hai grid ki usko three equal parts me todha jayega  */
+    /* grid-template-columns: repeat(3,1fr); */
+    /* grid-template-columns: 100px repeat(2,1fr) 200px;
+    grid-template-rows: 90px 90px 90px 90px;
+    */
+
+    /* for flexible grid */
+    grid-template-columns: 150px 1fr 1fr ;
+    grid-template-rows:  40px 1fr  40px;
+
+    gap: 3px;
+}
+
+.box{
+    background-color: aqua;
+    border: 3px solid rgb(6, 6, 6);
+    /* width: 80px; */
+    /* height: 80px; */
+}
+
+#box1,#box4{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+#box3{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+

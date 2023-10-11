@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Variables</title>
+
+    <style>
+      :root {
+        --dark-navy: green; /*this is also varaible but the scope of this is in whole area */
+      }
+
+      .container {
+        border: 1px solid black;
+        background-color: red;
+        height: 300px;
+        width: 300px;
+      }
+      .box {
+        border: 2px solid yellow;
+        background-color: white;
+        /* --dark-navy:green; this is variable for variable -- we hv to use two sign 
+            this variable scope is within box class*/
+        /* color: navy; */
+        color: var(--dark-navy);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">box1</div>
+      <div class="box">box2</div>
+      <div class="box">box3</div>
+      <div class="box">box4</div>
+    </div>
+  </body>
+</html>

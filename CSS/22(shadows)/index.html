@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        border: solid 2.5px black;
+        background-color: blanchedalmond;
+        margin: 2px;
+        padding: 2px;
+        height: 650px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      img {
+        width: 250px;
+      }
+      .box {
+        width: 330px;
+        height: 330px;
+        border: 2px solid blue;
+        background-color: aqua;
+        margin: 5px;
+        padding: 5px;
+
+        /* box-shadow: 10px 15px brown; */
+        /* 10px is x-offset (horizontal moving)
+               15 is of y offset (vertical moving)*/
+
+        /* box-shadow: 15px 20px 5px navy; */
+        /* 5px is blur (no negative) */
+
+        /* box-shadow: 10px 15px 5px 20px navy; */
+        /* 20 px is spread radius (no negative value)*/
+
+        /* box-shadow: inset 10px 15px black;  (for inside shadow) */
+
+        /* multiple shadow */
+        box-shadow: 10px 15px navy, 25px 30px rgb(231, 84, 22);
+      }
+      #head1{
+        text-shadow: 3px 4px 2px gold;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <img src="i2.jpeg" alt="m" />
+        <h2 id="head1">welcome to codehelp</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam
+          quos dolorum vitae temporibus amet saepe quae voluptatum nulla nemo.
+          Numquam quas similique maxime earum, quo veniam dolor qui beatae
+          dignissimos.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
