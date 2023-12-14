@@ -170,17 +170,21 @@ a{
   }
 
   .user-image{
+
     padding:2.5rem;
     filter:grayscale(1);
     transition:all 1s;
-    animation: scaleImage 5s linear infinite;
+    animation: scaleImage 5s linear infinite; 
+    width : 345px ;
+    height : 390px ;
   }
 
   .user-image img{
+    width: 100%;
     z-index:-9;
   }
 
-  @keyframes scaleImage {
+   @keyframes scaleImage {
 
     0%{
         filter:grayscale(0);
@@ -189,7 +193,7 @@ a{
     }
 
     50%{
-        transform:scale(1.1);
+        transform:scale(0.9);
         filter:grayscale(1);
         box-shadow: 3px 3px 10px black;
     }
@@ -199,7 +203,7 @@ a{
         filter:grayscale(0);
     }
     
-  }
+  }  
 
 
   .icon-dots{
