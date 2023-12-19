@@ -1,0 +1,37 @@
+Notes for jss3:-
+
+In-built objects && arrays:-
+
+In-built objects:-
+
+1. Math:- use mdn
+
+2. String:- strings are primitive but you can make them into object by using proper syntax
+
+you can also convert a primitive type string into an object by usin the (.) notation - > lastName.length,etc
+
+ In the string you can use many functions :- touppercase(),tolowercase(),length,string_name(n),includes(),startswith(),endwith(),trim(),trimstart(),trimend(),indexof(),replace().
+
+
+3. Temaplate Literal:-  The template literal are used to so that w dont have to use the escape sequences in a string. if we use ``(backtiks) instead of ''(single colons).
+
+4. Date and Time:- 
+
+ARRAYS:-
+
+it is an object/reference type whict is collection of items. in java script an array can store multiple datatypes of data.
+‪
+Adding new elements:- insertion in array can be done in three conditions ->end: .push()
+									   begin: .unshift()
+									   Middle: .splice(index , del_count, content)
+Finding elements:- you can search elements in array by .indexOf(),.includes() but this won't be applied on the objects. So for finding 			   elements in objects/refrences we have to use callback functions.
+Removing elements:-deletion in array can be done in three conditions ->    end: .pop()
+									   begin: .shift()
+									   Middle: .splice(index , no. of elements to delete)
+Splitting elements:-
+Combining elements:-
+
+Spread operatopr
+
+
+

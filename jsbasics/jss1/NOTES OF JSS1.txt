@@ -1,0 +1,128 @@
+NOTES OF JSS1
+
+we use javascript in web application / mobile application / networking applications
+it is also used in the development of games
+
+
+with writing node <file name> in terminal you can run js in terminal.
+
+in js you dont have to mention datatypes while creating an variable he system will itself figure out the datatype with the value of variable.
+
+you can declare a variable with both let and var but the difference is that the scope of let is local mean while the scope of var is global also you can re-declare a variable in var but can in let.
+
+with the help of const you can a variable a constant value that can not be changed.
+
+rule for naming a variable:
+1. it cannot be keyword.
+2. it must be meaningfull.
+3. it can't start with a no.
+4. can't contain any space or '_'.
+5. use camelcase.
+
+
+Primitive Types:
+
+1. String -> sequence of characters
+2. Number -> all types of integers , floating point , double, etc. are lye in this
+3. Boolean -> true/false
+4. Undefined -> when a variable is declared but its value is not alloted then it is called undefined
+5. Null -> when a varible is declared and its is null or empty then it is null
+
+
+Dynamic Typing: in javascript you can change the type of data in variable and it will run without any error
+Example: let a = 5;
+console.log(a);
+a = 'himanshu';
+console.log(a);
+
+
+Refernce Type:
+
+1. Objects    
+2. Arrays
+3. Fenctions
+
+
+we can run javascript in both client and server site.
+
+Operators:-
+
+1. Arithmetic:-'+','-','*','/','%','**'.
+pre/post increment:- '++x','x++','--x','x--'.
+2. Assignment:
+3. Compoarison:equlity , >=,<=,!=.
+4. Bitwise:- bitwise AND , bitwise OR.
+5. Logical:- 'AND--&&','OR--||','NOT--!'
+
+Equality oprrators:-
+
+loose equlity :- '==' a/c to this only the has to be the same it does not care about the data type
+strict equality :- '==='a/c to this both the value and the type of has to be the same
+
+Ternary operater:-
+it is used to implement the if else value in a condition 
+syntax:-  cndition val1 : val2 ;
+if the condition is true then val1 will be implemented otherwise val2 will be used 
+
+
+Operator Precedence :- Same as it is in c,c++,python
+
+++	Increment	First	R -> L
+--	Decrement	First	R -> L
+—	Negation	First	R -> L
+!	NOT	        First	R -> L
+*, /,	Multiplication, Second	L -> R
+ %       division,
+        modulus	
++, —	Addition,       Third	L -> R
+        subtraction	
++	Concatenation	Third	L -> R
+<, <=	Less than,      Fourth	L -> R
+        less than,
+         or equal	
+>, >=	Greater than,   Fourth	L -> R
+        greater than,
+        or equal	
+==	Equal	        Fifth	L -> R
+!=	Not equal	Fifth	L -> R
+===	Identity	Fifth	L -> R
+!==	Non-identity	Fifth	L -> R
+&&	AND	        Sixth	L -> R
+||	OR	        Sixth	L -> R
+?:	Ternary	        Seventh	R -> L
+=	Assignment	Eighth	R -> L
++=, -=, Arithmetic      Eighth	R -> L
+ and    assignment
+so on.		
+
+
+
+
+CONTROL Statements:-
+
+1. If-else
+2. Switch
+
+
+Loops:-
+
+1. For loop
+2. While loop
+3. Do-While loop
+4. Infinite loop
+5. For-in loop
+6. For-of loop
+
+
+    
+
+
+
+
+
+
+
+
+
+
+

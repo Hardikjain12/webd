@@ -1,0 +1,13 @@
+Notes for jss4:-
+
+Functions:-
+It is a block of code thagt fulfils a specific task. the basic syntax of a function is:-
+function func_name(i/p parameters){
+       //function body
+    };
+
+Functions is used because it doesn't make your code bulky, increase readebility and a function is reusable. also using an function can reduce buggs in the code.
+
+Hoisting is the process of moving function declaration to the top of file and it is automatic in the java script.
+
+The scope of let keyword is till its nearest codeblock's. But in the case of var keyword its scope is till its function and if it is not in function then it's scope will be whole file.

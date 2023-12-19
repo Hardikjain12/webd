@@ -1,0 +1,39 @@
+Objects in JS:-
+An object is an real world entity consisting of some properties and attributes which are defined by he connection of multiple variables.
+{} <- is an object litral in which we define the properties of object.
+
+In javascript when you create a function inside an object then it is knowm as function.
+
+Object creation function:-  such functiion which creates object and we only have to refer to whenever we need to make an object 
+
+1. Factory Function:- in this the object is created in the function and return at the end and whenever we call the function it will create                                  		       the objecct and return it. camelCase natation is used naming the factory function.
+
+2. Constructor Function:- pascle notation is used in naming of an constructor function. A constructor function initialise the property and         			  method of the object but it does not return like thew factory function.
+
+
+Constructor property is type of property of object thet represent that how an object is constructed.
+
+**Functions are Objects.
+
+Types in js:-
+
+!. primitive or value types :- Number,string,boolean,undefined,null.
+2. reference typea or objects :- function, objects, arrays.
+
+Note:- Primitives are copied by their value and References are copied by their address/refrences.
+
+Iterating through Objects:
+
+1. For-of:-it can only be applied on the iterables
+2. For-in
+
+
+*Object Cloning:-
+1. Iteration
+2. Assign
+3. spread
+
+Garbage Collection:-
+In javascript garbage collector is a scuh tool which finds constants/variables which are of no use or not used it automatically de-allocates thier memmory. we have no control over G.C. . it runs in background.
+
+ 
