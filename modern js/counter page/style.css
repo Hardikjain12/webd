@@ -1,0 +1,38 @@
+:root{
+    --primaryColor : #344151;
+    --secondaryColor : #0398d4;
+    --white : #fff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+
+.main-div{
+    width: 100vw;
+    height: 100vh;
+    background: var(--primaryColor);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.text{
+    font-family: sans-serif;
+    color: var(--secondaryColor);
+    font-size: medium;
+    font-weight: 600;
+}
